@@ -9,29 +9,21 @@ import org.testng.annotations.Test;
 import com.syntax.utils.Base;
 
 public class AssignmentTestMaven extends Base {
-	
+
 	WebDriver driver;
+
 	@BeforeMethod
 	public void launchTest() {
 		String url = "https://www.google.com/";
 		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(url);
-		
-		
-	}
-	
-	@Test
-	public void testRun() {
-		
-	}
-	
-	
-	
-	@AfterMethod
-	public void finish () {
-		driver.close();
+
 	}
 
+	@AfterMethod
+	public void finish() {
+		driver.close();
+	}
 
 }
