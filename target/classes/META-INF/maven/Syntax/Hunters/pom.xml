@@ -24,7 +24,7 @@
 				<version>3.0.0-M1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src\test\resources\Assignment.xml</suiteXmlFile>
+						<suiteXmlFile>src\test\resources\Assignment2.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
